@@ -88,7 +88,9 @@ const Hero = () => {
                                             component='p'
                                             color='#e5383b'
                                             align='center'
-                                        >NOTICE! <br/>I will not be with you for a while as I have to do my military duty <br/> Hope to see you soon <br/>
+                                        >
+                                                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                                            <div class="elfsight-app-d53e9da2-488b-4cbe-8ef1-6fdb7801de9c"></div>
                                         
                                         
 
