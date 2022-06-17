@@ -159,17 +159,7 @@ const Contact = () => {
                                 
                                 
                             </Box>
-                            <Grid container item xs={12} md={12} lg={12} justifyContent='center'>
-                                        
-                                    <iframe
-                                    allow="microphone;"
-                                    width="auto"
-                                    height="430"
-                                    background-color="#ffb703"
-                                    src="https://console.dialogflow.com/api-client/demo/embedded/07a531c6-4ebd-46e2-a558-aafd6fc40487">
-                                        
-                                    </iframe>
-                                    </Grid> 
+                            
                         </Box>
                         
                         
