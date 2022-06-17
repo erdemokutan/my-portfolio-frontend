@@ -11,6 +11,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import { useTheme } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
 
 
 const Contact = () => {
@@ -44,6 +45,7 @@ const Contact = () => {
     ), []);
 
     return (
+        
         <div id='contact'>
             <Box 
                 position='relative'
@@ -77,7 +79,9 @@ const Contact = () => {
                             marginBottom={6}
                         >
                             With Me
+                            
                         </Typography>
+                       
                     </Box>
                     {contact.map((item, i) => (
                         <Box key={i}>
@@ -87,6 +91,7 @@ const Contact = () => {
                                     zoom={13} 
                                 />
                             </Box>
+                            
                             <Box
                                 display='flex'
                                 flexDirection={{ xs: 'column', sm: 'row' }}
@@ -94,6 +99,7 @@ const Contact = () => {
                                 marginTop={6}
                                 marginBottom={3}
                             >
+                                
                                 <Box
                                     component={ListItem}
                                     disableGutters
@@ -145,12 +151,35 @@ const Contact = () => {
                                         secondary={item.address} 
                                     />
                                     
+                                    
+                                     
+                                   
+                                    
                                 </Box>
+                                
+                                
                             </Box>
+                            <Grid container item xs={12} md={12} lg={12} justifyContent='center'>
+                                        
+                                    <iframe
+                                    allow="microphone;"
+                                    width="auto"
+                                    height="430"
+                                    background-color="#ffb703"
+                                    src="https://console.dialogflow.com/api-client/demo/embedded/07a531c6-4ebd-46e2-a558-aafd6fc40487">
+                                        
+                                    </iframe>
+                                    </Grid> 
                         </Box>
+                        
+                        
                     ))}
+                    
+                   
                 </Box>
+                
             </Box>
+            
         </div>
     );
 };
